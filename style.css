@@ -1,0 +1,163 @@
+body
+{
+    margin: 0;
+}
+
+.header
+{
+    
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    color: white;
+    padding-top: 20px;
+
+    padding-left: 100px;
+    padding-right: 50px;
+    
+    
+}
+
+.logo
+{
+    font-weight: Bolder;
+    padding-left: 65px;
+    
+}
+
+a
+{
+    text-decoration: none;
+    color: lightgrey;
+    margin: 10px;
+    
+}
+
+.under-header
+{
+    display: flex;
+    background-color: #1f2937;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: center;
+    gap: 400px;
+}
+
+.kep1
+{
+    width: 400px;
+    height: 200px;
+    padding-right: 20px;
+}
+
+.under-header-text
+{
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    color: white;
+}
+
+.signup-button
+{
+    background-color: #3882F6;
+    color: white;
+    width: 100px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.info-images
+{
+    width: 200px;
+    height: 200px;  
+    border: #3882F6 3px solid;
+    border-radius: 15px;
+}
+
+.kepek
+{
+   display: flex;
+   gap: 20px;
+   padding-left: 200px;
+   justify-content: space-between;
+   padding-top: 20px;
+   padding-right: 200px;
+}
+
+.kepek-subtext
+{
+    display: flex;
+    justify-content: space-around;
+    
+    text-align: center;
+    align-items: center;
+    color: grey;
+}
+
+.text
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    
+}
+
+.info
+{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+    flex-wrap: wrap;
+}
+
+.idezet
+{
+    background-color: lightgray;
+    font-style: italic;
+    font-size: 30px;
+    padding: 50px;
+    padding-left: 200px;
+    padding-right: 300px;
+}
+
+#szerzo
+{
+    
+    text-align: right;
+    font-weight: bolder;
+}
+
+
+
+.belsodoboz
+{
+    background-color: #3882F6;
+    margin: 60px;
+    padding-left: 32px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    border: #3882F6 0px solid;
+    border-radius: 12px;
+    color: white;
+}
+
+
+.signup-cta
+{
+    border: white 2px solid;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    
+}
+
+.belsodoboz p, .belsodoboz h2
+{
+    margin: 0;
+}
